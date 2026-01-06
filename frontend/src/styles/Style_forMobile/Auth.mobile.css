@@ -1,0 +1,179 @@
+/* =========================================
+FILE: src/styles/Style_forMobile/Auth.mobile.css
+========================================= */
+
+@media (max-width: 640px) {
+  .auth-container {
+    padding: 16px;
+  }
+
+  .auth-card {
+    padding: 30px 24px;
+    max-width: 100%;
+    border-radius: 12px;
+  }
+
+  .auth-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .auth-header p {
+    font-size: 0.875rem;
+  }
+
+  .auth-form {
+    gap: 20px;
+  }
+
+  /* Trial Banner Mobile */
+  .trial-banner {
+    padding: 16px;
+  }
+
+  .trial-content {
+    gap: 12px;
+  }
+
+  .trial-icon {
+    font-size: 2rem;
+  }
+
+  .trial-title {
+    font-size: 1rem;
+  }
+
+  .trial-subtitle {
+    font-size: 0.8rem;
+  }
+
+  /* Form Elements Mobile */
+  .form-group {
+    gap: 8px;
+  }
+
+  .form-group label {
+    font-size: 0.9rem;
+  }
+
+  .label-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .form-group input {
+    padding: 12px 14px;
+    font-size: 0.95rem;
+  }
+
+  .password-wrapper input {
+    padding-right: 44px;
+  }
+
+  .password-toggle {
+    right: 10px;
+    padding: 6px;
+  }
+
+  .password-toggle .icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  /* Error Alert Mobile */
+  .error-alert {
+    padding: 12px 14px;
+    font-size: 0.85rem;
+  }
+
+  .error-icon {
+    font-size: 1.1rem;
+  }
+
+  /* Password Strength Mobile */
+  .strength-bar-container {
+    height: 5px;
+  }
+
+  .strength-label {
+    font-size: 0.8rem;
+  }
+
+  /* Password Requirements Mobile */
+  .password-requirements {
+    padding: 14px;
+    margin-top: 10px;
+  }
+
+  .requirements-title {
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+  }
+
+  .requirements-list {
+    gap: 6px;
+  }
+
+  .requirements-list li {
+    font-size: 0.8rem;
+  }
+
+  .requirement-icon {
+    width: 14px;
+    height: 14px;
+  }
+
+  /* Submit Button Mobile */
+  .submit-button {
+    font-size: 0.95rem;
+    padding: 12px 16px;
+  }
+
+  /* Auth Footer Mobile */
+  .auth-footer {
+    margin-top: 12px;
+    padding-top: 20px;
+  }
+
+  .auth-footer p {
+    font-size: 0.875rem;
+  }
+
+  .auth-link {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .auth-card {
+    padding: 24px 20px;
+  }
+
+  .auth-header h2 {
+    font-size: 1.35rem;
+  }
+
+  .trial-icon {
+    font-size: 1.75rem;
+  }
+
+  .trial-title {
+    font-size: 0.95rem;
+  }
+
+  .trial-subtitle {
+    font-size: 0.75rem;
+  }
+
+  .form-group input {
+    padding: 11px 12px;
+    font-size: 0.9rem;
+  }
+
+  .password-requirements {
+    padding: 12px;
+  }
+
+  .requirements-list li {
+    font-size: 0.75rem;
+  }
+}
